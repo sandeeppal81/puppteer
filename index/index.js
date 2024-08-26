@@ -17,7 +17,10 @@ async function scrape_session() {
     await pupp_session.launch_docker_pupp();
 
      const page = pupp_session.page;
+    console.log("before page")
      await page.goto('https://www.google.com')
+    console.log("after page")
+    
 
 }
 
