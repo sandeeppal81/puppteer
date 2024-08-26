@@ -10,7 +10,7 @@ async function scrape_session() {
         device_height: 720,
         cookies_path: './sessions/cookies.json',
         user_data_path: './sessions/user_data',
-        headless: false
+        headless: true
     }
 
     const pupp_session = new PuppeteerSession(default_options);
